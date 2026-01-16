@@ -8,7 +8,7 @@ SIGNING_SECRET = b"hello-there-from-b12"
 URL = "https://b12.io/apply/submission"
 
 payload = {
-    "action_run_link": "https://github.com/your-org/your-repo/actions/runs/123456789",
+    "action_run_link": "https://github.com/aditya2499/b12_submission/actions/runs/21079169553/job/60628425461",
     "email": "adbansal99@gmail.com",
     "name": "Aditya Bansal",
     "repository_link": "https://github.com/aditya2499/b12_submission",
