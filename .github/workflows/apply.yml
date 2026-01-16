@@ -1,0 +1,14 @@
+name: B12 Application Submission
+
+on:
+  workflow_dispatch:
+
+jobs:
+  submit:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Submit application
+        run: |
+          python submit.py
